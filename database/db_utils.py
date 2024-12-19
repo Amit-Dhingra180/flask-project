@@ -1,20 +1,12 @@
 import sqlite3
 from typing import Optional
 
-# Define a type for the database connection
 DbConnection = sqlite3.Connection
 
 def get_db_connection() -> DbConnection:
-    """
-    Establishes a connection to the SQLite database.
-    :return: SQLite connection object
-    """
     return sqlite3.connect('library.db')
 
 def init_db() -> None:
-    """
-    Initializes the database by creating the necessary tables if they do not exist.
-    """
     with get_db_connection() as conn:
         cursor = conn.cursor()
         
