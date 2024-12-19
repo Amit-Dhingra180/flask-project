@@ -2,9 +2,11 @@
 This is a simple Library Management System built using Flask. It allows users to manage books, members, and transactions, such as borrowing and returning books.
 
 ## Table of Contents
-How to Run the Project
-Design Choices
-Assumptions and Limitations
+1. How to Run the Project
+
+2. Design Choices
+
+3. Assumptions and Limitations
 
 ## How to Run the Project
 ### Prerequisites
