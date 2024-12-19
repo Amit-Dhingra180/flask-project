@@ -55,7 +55,7 @@ Database Schema:
 
 The database is assumed to have the following tables:
 
-### books: 
+## books: 
 id
 
 name
@@ -72,7 +72,8 @@ description
 
 available
 
-### members: 
+
+## members: 
 id
 
 name
@@ -85,7 +86,8 @@ membership_start_date
 
 membership_end_date
 
-### transactions:
+
+## transactions:
 id member_id
 
 book_id
@@ -94,6 +96,7 @@ borrow_date
 
 return_date
 
+##
 The project does not include user authentication or authorization, so there is no way to securely manage who can access or modify the system.
 
 The system does not handle overdue books or impose any fines for late returns.
